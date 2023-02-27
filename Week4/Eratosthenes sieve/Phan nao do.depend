@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1664205958 source:d:\bi kip luyen rong\phan nao do\main.cpp
+	<stdio.h>
+	<iostream>
+	<cstring>
+	<cctype>
+	<algorithm>
+
