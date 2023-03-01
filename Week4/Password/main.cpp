@@ -14,23 +14,20 @@ int main()
     {
         getline(cin,s[i]);
     }
-    cout << s[1];
-    /*for(int i = 1; i <= n; i++)
+    for(int i = 1; i <= n; i++)
     {
-        cout << i << " ";
         string temp = s[i];
         reverse(temp.begin(),temp.end());
-        cout << temp << " ";
         for(int j = i+1; j <= n; j++)
     {
         if(temp == s[j])
         {
             int pos = s[j].size();
             cout << pos << " ";
-            cout << s[j][pos/2];
+            cout << s[j][pos/2] <<" ";
         }
     }
 
     }
-    */
+
 }
